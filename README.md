@@ -2,16 +2,20 @@
 ## _Simple Activity indicator for your webapp_
 
 ### Installation
-    1. `git clone https://github.com/tejaswigowda/super-activity-ind.git`
-    2. Include `ai.png`, `ai.css`, `ai.js` into your project
+    
+1. `git clone https://github.com/tejaswigowda/super-activity-ind.git`
+   
+ 2. Include `ai.png`, `ai.css`, `ai.js` into your project
       -- `<script src='src/ai.js' type='text/javascript'> </script>`
       -- `<link href='src/ai.css' rel='stylesheet' type='text/css'>`
       -- Add `ai.png` to your images.
       
 ### Usage
     - To show Activity indicator:
-        ``AI.show();``
-    - To hide Activity indicator:
+        ``AI.show();``    - To show Activity indicator 2:
+        ``AI.show("atom");``
+    - To show Activity indicator3:
+        ``AI.show("gear");``    - To hide Activity indicator:
         ``AI.hide();``        
         
 ### Dependencies
