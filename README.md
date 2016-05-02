@@ -12,10 +12,12 @@
       
 ### Usage
     - To show Activity indicator:
-        ``AI.show();``    - To show Activity indicator 2:
+        ``AI.show();``    
+    - To show Activity indicator 2:
         ``AI.show("atom");``
     - To show Activity indicator3:
-        ``AI.show("gear");``    - To hide Activity indicator:
+        ``AI.show("gear");``    
+    - To hide Activity indicator:
         ``AI.hide();``        
         
 ### Dependencies
